@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pcell.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <title>PASSOS CELL</title>
+</head>
+
+<body>
+
+    <header class="header" id="hd">
+        <img src="logo.png" alt="logo">
+        <h1> REPARO EM SMARTPHONES </h1>
+    </header>
+
+
+    <form class="container">
+        <div class="legenda" id="leg">
+    
+            <p>Preencha as informações abaixo e solicite seu orçamento</p>
+        </div>
+
+        <div class="infoDoCliente">
+            <fieldset>
+                <label for="nome"> NOME:</label>
+                <input type="text" id="nome" placeholder="Ex:. Maria Silva" required>
+
+                <label for="email"> EMAIL: </label>
+                <input type="email" id="email" placeholder="Ex:.mariasilva@email.com" required>
+
+                <label for="numero"> NUMERO:</label>
+                <input type="tel" id="numero" placeholder="Ex:.11 99191-9911" required>
+                </label>
+            </fieldset>
+
+        </div>
+        <div class="defeito">
+            <fieldset>
+                <label for="modelo" id="modelo"> MODELO DO APARELHO:
+
+                    <select name="modelos" id="modelo">
+                        <option value="MOTOROLA">MOTOROLA</option>
+                        <option value="SAMSUNG">SAMSUNG</option>
+                        <option value="XAIOMI">XAIOMI</option>
+                        <option value="IPHONE">IPHONE</option>
+
+                    </select>
+                </label>
+                <label for="DEFEITO"> INFORME QUAL O DEFEITO : </label>
+                <br>
+                <textarea FOR="DEFEITO" rows="4" cols="20" placeholder="Ex:.Tela com defeito"></textarea>
+            </fieldset>
+            
+    <div class="button" id="btn">
+        
+             <button type="submit">
+              <a href="confirm.html">  ENVIAR</a>
+            </button>
+             <button type="reset">CANCELAR </button>
+             
+    </div>
+
+        </div>
+    </form>
+
+    <footer class="foot">  <p>Rodrigo Passos</p> </footer>
+</body>
+
+
+</html>
