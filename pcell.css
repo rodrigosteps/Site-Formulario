@@ -64,8 +64,8 @@ header {
   border-radius: 16px 16px 16px 16px;
   max-width: 80%;
   min-width: 20%;
-  max-height:auto;
-  min-height:auto;
+  max-height:80%;
+  min-height:80%;
 }
 
 fieldset {
