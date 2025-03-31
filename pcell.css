@@ -88,7 +88,6 @@ textarea {
   border-radius: 4px; 
   border: 1px solid #ccc; 
   font-size: 18px;
-  overflow: hidden;
 }
 
 /* INFORMAÇÕES*/
@@ -97,6 +96,7 @@ option,
 textarea,
 input {
   border-radius: 4px 2px;
+  overflow: hidden;
 }
 
 p {
