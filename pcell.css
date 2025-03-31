@@ -7,7 +7,7 @@
 
 /*background*/
 body {
-  background-image: url(bkgimg.jpg);
+  background-image: url(/Site-Formulario/ASSETS/bkgimg.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
