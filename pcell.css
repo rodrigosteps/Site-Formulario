@@ -15,7 +15,7 @@ body {
   font-family: "roboto";
   display: grid;
   grid-template-columns: 40% 60%;
-  grid-template-rows: auto;
+  align-items: center;
 }
 
 /* PARTE SUPERIOR DO SITE*/
@@ -143,19 +143,24 @@ footer {
 @media screen and (max-width: 700px) {
 
   body{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin:0;
-    padding: 0;
-    flex-shrink: 1;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  margin: 0 auto;
+  width: 100%;
+  gap: 0px;
+
   }
 
 .header{
   display: flex;
   width: 50%;
   margin:0;
+  align-items: center;
+}
+.header img{
+  width: 320px;
+  flex: 50%;
 }
 
 .header h1{
@@ -165,6 +170,8 @@ footer {
 }
 
 .container{
+  position:relative;
+  bottom:13%;
   width: 100%;
   margin: 0;
   padding: 0;
